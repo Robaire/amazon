@@ -73,46 +73,74 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="0" y2="30.48" width="0.1524" layer="20"/>
-<wire x1="0" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="20"/>
-<wire x1="43.18" y1="30.48" x2="43.18" y2="0" width="0.1524" layer="20"/>
-<wire x1="43.18" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
+<wire x1="-19.05" y1="-21.59" x2="-19.05" y2="21.59" width="0.1524" layer="20"/>
+<wire x1="-19.05" y1="21.59" x2="19.05" y2="21.59" width="0.1524" layer="20"/>
+<wire x1="19.05" y1="21.59" x2="19.05" y2="-21.59" width="0.1524" layer="20"/>
+<wire x1="19.05" y1="-21.59" x2="-19.05" y2="-21.59" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="Main Components">
 <packages>
+<package name="VQFN-16">
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.05" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.05" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.05" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.05" layer="21"/>
+<circle x="-1.75" y="1.75" radius="0.25" width="0.05" layer="21"/>
+<smd name="17" x="0" y="0" dx="1.6" dy="1.6" layer="1"/>
+<pad name="17@1" x="-0.55" y="0.55" drill="0.2" diameter="0.254"/>
+<pad name="17@4" x="0.55" y="0.55" drill="0.2" diameter="0.254"/>
+<pad name="17@3" x="0.55" y="-0.55" drill="0.2" diameter="0.254"/>
+<pad name="17@2" x="-0.55" y="-0.55" drill="0.2" diameter="0.254"/>
+<smd name="1" x="-1.4" y="0.75" dx="0.6" dy="0.25" layer="1" roundness="40"/>
+<smd name="2" x="-1.4" y="0.25" dx="0.6" dy="0.25" layer="1" roundness="40"/>
+<smd name="3" x="-1.4" y="-0.25" dx="0.6" dy="0.25" layer="1" roundness="40"/>
+<smd name="4" x="-1.4" y="-0.75" dx="0.6" dy="0.25" layer="1" roundness="40"/>
+<smd name="5" x="-0.75" y="-1.4" dx="0.6" dy="0.25" layer="1" roundness="40" rot="R90"/>
+<smd name="6" x="-0.25" y="-1.4" dx="0.6" dy="0.25" layer="1" roundness="40" rot="R90"/>
+<smd name="7" x="0.25" y="-1.4" dx="0.6" dy="0.25" layer="1" roundness="40" rot="R90"/>
+<smd name="8" x="0.75" y="-1.4" dx="0.6" dy="0.25" layer="1" roundness="40" rot="R90"/>
+<smd name="9" x="1.4" y="-0.75" dx="0.6" dy="0.25" layer="1" roundness="40" rot="R180"/>
+<smd name="10" x="1.4" y="-0.25" dx="0.6" dy="0.25" layer="1" roundness="40" rot="R180"/>
+<smd name="11" x="1.4" y="0.25" dx="0.6" dy="0.25" layer="1" roundness="40" rot="R180"/>
+<smd name="12" x="1.4" y="0.75" dx="0.6" dy="0.25" layer="1" roundness="40" rot="R180"/>
+<smd name="13" x="0.75" y="1.4" dx="0.6" dy="0.25" layer="1" roundness="40" rot="R270"/>
+<smd name="14" x="0.25" y="1.4" dx="0.6" dy="0.25" layer="1" roundness="40" rot="R270"/>
+<smd name="15" x="-0.25" y="1.4" dx="0.6" dy="0.25" layer="1" roundness="40" rot="R270"/>
+<smd name="16" x="-0.75" y="1.4" dx="0.6" dy="0.25" layer="1" roundness="40" rot="R270"/>
+</package>
 <package name="BGM111">
-<smd name="P$1" x="-5.65" y="-0.94" dx="2.4" dy="0.8" layer="1" roundness="100"/>
-<smd name="P$2" x="-5.65" y="-2.14" dx="2.4" dy="0.8" layer="1" roundness="100"/>
-<smd name="P$3" x="-5.65" y="-3.34" dx="2.4" dy="0.8" layer="1" roundness="100"/>
-<smd name="P$4" x="-5.65" y="-4.54" dx="2.4" dy="0.8" layer="1" roundness="100"/>
-<smd name="P$5" x="-5.65" y="-5.74" dx="2.4" dy="0.8" layer="1" roundness="100"/>
-<smd name="P$6" x="-5.65" y="-6.94" dx="2.4" dy="0.8" layer="1" roundness="100"/>
-<smd name="P$7" x="-5.65" y="-8.14" dx="2.4" dy="0.8" layer="1" roundness="100"/>
-<smd name="P$8" x="-5.65" y="-9.34" dx="2.4" dy="0.8" layer="1" roundness="100"/>
-<smd name="P$9" x="-5.65" y="-10.54" dx="2.4" dy="0.8" layer="1" roundness="100"/>
-<smd name="P$10" x="-5.65" y="-11.74" dx="2.4" dy="0.8" layer="1" roundness="100"/>
-<smd name="P$11" x="-5.65" y="-12.94" dx="2.4" dy="0.8" layer="1" roundness="100"/>
-<smd name="P$12" x="-5.65" y="-14.14" dx="2.4" dy="0.8" layer="1" roundness="100"/>
-<smd name="P$13" x="-3.58" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
-<smd name="P$14" x="-2.38" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
-<smd name="P$15" x="-1.18" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
-<smd name="P$16" x="0.02" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
-<smd name="P$17" x="1.22" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
-<smd name="P$18" x="2.42" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
-<smd name="P$19" x="3.62" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
-<smd name="P$20" x="5.65" y="-14.14" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
-<smd name="P$21" x="5.65" y="-12.94" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
-<smd name="P$22" x="5.65" y="-11.74" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
-<smd name="P$23" x="5.65" y="-10.54" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
-<smd name="P$24" x="5.65" y="-9.34" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
-<smd name="P$25" x="5.65" y="-8.14" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
-<smd name="P$26" x="5.65" y="-6.94" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
-<smd name="P$27" x="5.65" y="-5.74" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
-<smd name="P$28" x="5.65" y="-4.54" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
-<smd name="P$29" x="5.65" y="-3.34" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
-<smd name="P$30" x="5.65" y="-2.14" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
-<smd name="P$31" x="5.65" y="-0.94" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="GND@0" x="-5.65" y="-0.94" dx="2.4" dy="0.8" layer="1" roundness="100"/>
+<smd name="PD13" x="-5.65" y="-2.14" dx="2.4" dy="0.8" layer="1" roundness="100"/>
+<smd name="PD14" x="-5.65" y="-3.34" dx="2.4" dy="0.8" layer="1" roundness="100"/>
+<smd name="PD15" x="-5.65" y="-4.54" dx="2.4" dy="0.8" layer="1" roundness="100"/>
+<smd name="PA0" x="-5.65" y="-5.74" dx="2.4" dy="0.8" layer="1" roundness="100"/>
+<smd name="PA1" x="-5.65" y="-6.94" dx="2.4" dy="0.8" layer="1" roundness="100"/>
+<smd name="PA2" x="-5.65" y="-8.14" dx="2.4" dy="0.8" layer="1" roundness="100"/>
+<smd name="PA3" x="-5.65" y="-9.34" dx="2.4" dy="0.8" layer="1" roundness="100"/>
+<smd name="PA4" x="-5.65" y="-10.54" dx="2.4" dy="0.8" layer="1" roundness="100"/>
+<smd name="PA5" x="-5.65" y="-11.74" dx="2.4" dy="0.8" layer="1" roundness="100"/>
+<smd name="PB11" x="-5.65" y="-12.94" dx="2.4" dy="0.8" layer="1" roundness="100"/>
+<smd name="GND@1" x="-5.65" y="-14.14" dx="2.4" dy="0.8" layer="1" roundness="100"/>
+<smd name="PB13" x="-3.58" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="PC6" x="-2.38" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="PC7" x="-1.18" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="PC8" x="0.02" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="PC9" x="1.22" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="PC10" x="2.42" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="PC11" x="3.62" y="-14.28" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="GND@2" x="5.65" y="-14.14" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="PF0" x="5.65" y="-12.94" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="PF1" x="5.65" y="-11.74" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="PF2" x="5.65" y="-10.54" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="PF3" x="5.65" y="-9.34" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="PF4" x="5.65" y="-8.14" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="PF5" x="5.65" y="-6.94" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="PF6" x="5.65" y="-5.74" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="PF7" x="5.65" y="-4.54" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="VDD" x="5.65" y="-3.34" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="RST_N" x="5.65" y="-2.14" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
+<smd name="GND@3" x="5.65" y="-0.94" dx="2.4" dy="0.8" layer="1" roundness="100" rot="R180"/>
 <rectangle x1="-3.85" y1="-3.5" x2="3.75" y2="0" layer="41"/>
 <rectangle x1="-3.85" y1="-3.5" x2="3.75" y2="0" layer="42"/>
 <wire x1="-6.45" y1="0" x2="6.45" y2="0" width="0.1" layer="21"/>
@@ -120,8 +148,21 @@
 <wire x1="6.45" y1="-15.08" x2="-6.45" y2="-15.08" width="0.1" layer="21"/>
 <wire x1="-6.45" y1="-15.08" x2="-6.45" y2="0" width="0.1" layer="21"/>
 <rectangle x1="-6.45" y1="-15.08" x2="6.45" y2="0" layer="39"/>
-<text x="-1" y="-8" size="1.27" layer="25" font="vector" rot="R90" align="bottom-center">&gt;Names</text>
-<text x="2" y="-8" size="1.27" layer="27" font="vector" rot="R90" align="bottom-center">&gt;Values</text>
+<text x="-1" y="-8" size="1.27" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2" y="-8" size="1.27" layer="27" font="vector" rot="R90" align="bottom-center">&gt;VALUE</text>
+<wire x1="-6.45" y1="0" x2="-23.45" y2="0" width="0.1" layer="51"/>
+<wire x1="23.45" y1="0" x2="6.45" y2="0" width="0.1" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="Hardware">
+<packages>
+<package name="#4_SCREW">
+<hole x="0" y="0" drill="2.9464"/>
+<circle x="0" y="0" radius="2.3368" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.3368" width="0" layer="41"/>
+<circle x="0" y="0" radius="2.3368" width="0" layer="29"/>
+<circle x="0" y="0" radius="2.3368" width="0" layer="39"/>
 </package>
 </packages>
 </library>
@@ -134,7 +175,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="OshPark *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -163,29 +204,29 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="15mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="0.35mm"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msDrill" value="10mil"/>
+<param name="msMicroVia" value="10mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
-<param name="rvPadTop" value="0.25"/>
-<param name="rvPadInner" value="0.25"/>
-<param name="rvPadBottom" value="0.25"/>
-<param name="rvViaOuter" value="0.25"/>
-<param name="rvViaInner" value="0.25"/>
+<param name="rvPadTop" value="0"/>
+<param name="rvPadInner" value="0"/>
+<param name="rvPadBottom" value="0"/>
+<param name="rvViaOuter" value="0"/>
+<param name="rvViaInner" value="0"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMinPadTop" value="5mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMinPadInner" value="5mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMinPadBottom" value="5mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="5mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMinViaInner" value="5mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -198,7 +239,7 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="2mil"/>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
@@ -214,7 +255,7 @@ design rules under a new name.</description>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
+<param name="checkValues" value="1"/>
 <param name="checkNames" value="1"/>
 <param name="checkWireStubs" value="1"/>
 <param name="checkPolygonWidth" value="0"/>
@@ -318,9 +359,53 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BGM111" library="Main Components" package="BGM111" value="BGM111" x="30.48" y="30.48" smashed="yes"/>
+<element name="CHARGER" library="Main Components" package="VQFN-16" value="BQ24075" x="12.7" y="8.89" smashed="yes">
+<attribute name="VALUE" value="BQ24075" x="12.7" y="8.89" size="1.778" layer="27" display="off"/>
+</element>
+<element name="BLUETOOTH" library="Main Components" package="BGM111" value="BGM111" x="0" y="21.59" smashed="yes" rot="MR0">
+<attribute name="NAME" x="1" y="13.59" size="1.27" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="-2" y="13.59" size="1.27" layer="28" font="vector" rot="MR90" align="bottom-center"/>
+</element>
+<element name="U$1" library="Hardware" package="#4_SCREW" value="" x="-16.51" y="19.05" smashed="yes"/>
+<element name="U$2" library="Hardware" package="#4_SCREW" value="" x="16.51" y="19.05" smashed="yes"/>
 </elements>
 <signals>
+<signal name="GND">
+<polygon width="0.1524" layer="1" isolate="0.4064">
+<vertex x="-19.05" y="21.59"/>
+<vertex x="19.05" y="21.59"/>
+<vertex x="19.05" y="-21.59"/>
+<vertex x="-19.05" y="-21.59"/>
+</polygon>
+<polygon width="0.1524" layer="16" isolate="0.4064">
+<vertex x="-19.05" y="21.59"/>
+<vertex x="19.05" y="21.59"/>
+<vertex x="19.05" y="-21.59"/>
+<vertex x="-19.05" y="-21.59"/>
+</polygon>
+<contactref element="BLUETOOTH" pad="GND@1"/>
+<contactref element="BLUETOOTH" pad="GND@3"/>
+<contactref element="BLUETOOTH" pad="GND@0"/>
+<contactref element="BLUETOOTH" pad="GND@2"/>
+<contactref element="CHARGER" pad="17@1"/>
+<contactref element="CHARGER" pad="8"/>
+<contactref element="CHARGER" pad="17@4"/>
+<contactref element="CHARGER" pad="17@3"/>
+<contactref element="CHARGER" pad="17"/>
+<contactref element="CHARGER" pad="17@2"/>
+<contactref element="CHARGER" pad="4"/>
+<contactref element="CHARGER" pad="15"/>
+<wire x1="12.15" y1="8.34" x2="12.7" y2="8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="11.3" y1="8.14" x2="12.15" y2="8.34" width="0" layer="19" extent="1-1"/>
+<wire x1="13.45" y1="7.49" x2="13.25" y2="8.34" width="0" layer="19" extent="1-1"/>
+<wire x1="12.45" y1="10.29" x2="12.15" y2="9.44" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+3V3">
+<contactref element="BLUETOOTH" pad="VDD"/>
+</signal>
+<signal name="+5V0">
+<contactref element="CHARGER" pad="13"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
