@@ -1,0 +1,11 @@
+# Datasheets
+*.pdf
+*.doc
+*.docx
+
+# Board & Schematics
+*.b#*
+*.s#*
+
+# Libraries
+*.l#*
