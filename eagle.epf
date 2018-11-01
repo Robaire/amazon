@@ -350,6 +350,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:176"
 UsedLibraryUrn="urn:adsk.eagle:library:177"
 UsedLibrary="/home/robaire/Documents/EAGLE/projects/amazon_old/Libraries/Components.lbr"
 UsedLibrary="Components/Main Components.lbr"
+UsedLibrary="Components/Hardware.lbr"
 
 [Win_1]
 Type="Control Panel"
