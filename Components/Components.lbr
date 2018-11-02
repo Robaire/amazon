@@ -472,6 +472,8 @@
 </devices>
 </deviceset>
 <deviceset name="USB">
+<description>&lt;h1&gt; Micro USB Connector &lt;/h1&gt;
+&lt;a href="https://www.mouser.com/ProductDetail/105017-0001"&gt; Mouser &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="USB" x="0" y="0"/>
 </gates>
